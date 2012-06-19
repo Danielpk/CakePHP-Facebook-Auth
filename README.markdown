@@ -34,7 +34,7 @@ In your `Plugin` directory type:
 ### Enable plugin
 
 In 2.0 you need to enable the plugin your `app/Config/bootstrap.php` file:
-
+	
 	CakePlugin::load('Facebook');
 
 If you are already using `CakePlugin::loadAll();`, then this is not necessary.
